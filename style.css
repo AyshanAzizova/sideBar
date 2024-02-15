@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container {
+    width: 60%;
+    height: 800px;
+    margin: auto;
+    background-color: pink;
+}
+#burger {
+    float: right;
+    padding: 20px;
+}
+#burger i {
+    font-size: 30px;
+}
+#sidebar{
+    position: absolute;
+    right: -250px;
+    height:100vh ;
+    background-color: pink;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+}
+#sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 24px;
+}
+#sidebar button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+}
+
